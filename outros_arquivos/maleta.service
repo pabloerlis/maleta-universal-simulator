@@ -1,0 +1,14 @@
+[Unit]
+Description=Maleta
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3.7 main.py
+WorkingDirectory=/var/www/html/server2
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

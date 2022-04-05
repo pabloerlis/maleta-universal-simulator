@@ -1,0 +1,156 @@
+    #comum_entradas {
+        border-color: #2979ff;
+        cursor: none !important;
+    }
+    
+    #comum_saidas {
+        border-color: #2979ff;
+        cursor: none !important;
+    }
+    
+    .h4 {
+        color: aliceblue;
+        cursor: none !important;
+    }
+    
+    .body {
+        /*background-image: url("../assets/images/wallpapermadeira.jpg");*/
+        background-image: url("../assets/images/wallpaper.gif");
+        /*background-image: url("../assets/images/linhassemgif.jpg");*/
+        background-size: 1024px 600px;
+        content: "";
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+        opacity: 1;
+        cursor: none !important;
+    }
+    
+    #logo {
+        margin-bottom: 0px;
+        position: relative;
+        top: 80%;
+        bottom: 0px;
+        left: 0%;
+        right: 50%;
+        cursor: none !important;
+    }
+    
+    .btn {
+        margin: 1%;
+        margin-left: 1px;
+        border-radius: 120px;
+        cursor: none !important;
+        /*força a remoção do cursor nos botões -> cursor: none !important;*/
+    }
+    
+    .btn-secondary,
+    .btn-secondary:hover {
+        background: white;
+        color: #0b2757;
+        cursor: none !important;
+    }
+    
+    .btn-group {
+        float: right;
+        cursor: none !important;
+    }
+    
+    .alert-danger {
+        font-weight: bold;
+        background-color: red;
+        color: yellow;
+        font-size: 22px;
+        cursor: none !important;
+    }
+    
+    .alert {
+        cursor: none !important;
+    }
+    
+    .load-active {
+        position: relative;
+        cursor: none !important;
+    }
+    
+    .load-active::before {
+        content: '';
+        position: absolute;
+        border: 5px solid orange;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        border-radius: 120px;
+        cursor: none !important;
+    }
+    
+    select {
+        position: absolute;
+        width: 50%;
+        height: 10%;
+        top: 50%;
+        cursor: none !important;
+    }
+    
+    #btn-form {
+        text-align: center;
+        position: absolute;
+        width: 50%;
+        top: 61%;
+        right: 25%;
+        cursor: none !important;
+    }
+    
+    #bt-carregar-receita,
+    #bt-fechar-receita {}
+    
+    form {
+        position: absolute;
+        width: 50%;
+        top: 30%;
+        bottom: 0px;
+        left: 10px;
+        right: 0px;
+        cursor: none !important;
+    }
+    
+    #box-btn-salvar {
+        position: relative;
+        text-align: center;
+        cursor: none !important;
+    }
+    
+    #box-salvar {
+        display: none;
+        position: absolute;
+        width: 50%;
+        top: 73.5%;
+        bottom: 0px;
+        left: 10px;
+        right: 0px;
+        cursor: none !important;
+    }
+    
+    #btn-set-lub {
+        position: absolute;
+        height: 7%;
+        top: 1%;
+        bottom: 0px;
+        left: 90%;
+        right: 0px;
+        cursor: none !important;
+    }
+    
+    .carousel-control-prev {
+        position: absolute;
+        cursor: none !important;
+    }
+    
+    .carousel-control-next {
+        position: absolute;
+        cursor: none !important;
+    }
